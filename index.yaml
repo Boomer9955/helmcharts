@@ -13,6 +13,16 @@ entries:
     version: 2.1.3
   postgres:
   - apiVersion: v2
+    appVersion: 1.1.2
+    created: "2021-10-01T14:53:26.413902755+03:00"
+    description: A Helm chart for Kubernetes
+    digest: 640aac0e67923dbd5958af8ebe9f6e069b63b1e5e7fc8e5d882c06c892ae1d00
+    name: postgres
+    type: application
+    urls:
+    - https://github.com/Boomer9955/helmcharts/releases/download/postgres-1.1.2/postgres-1.1.2.tgz
+    version: 1.1.2
+  - apiVersion: v2
     appVersion: 1.1.1
     created: "2021-10-01T14:43:24.421347923+03:00"
     description: A Helm chart for Kubernetes
@@ -103,4 +113,4 @@ entries:
     urls:
     - https://github.com/Boomer9955/helmcharts/releases/download/prdjango-0.1.0/prdjango-0.1.0.tgz
     version: 0.1.0
-generated: "2021-10-01T14:43:24.421392908+03:00"
+generated: "2021-10-01T14:53:26.413936217+03:00"
