@@ -1,5 +1,16 @@
 apiVersion: v1
 entries:
+  postgres:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2021-10-01T13:44:53.479454737+03:00"
+    description: A Helm chart for Kubernetes
+    digest: 3a13d508d2cf3f664af390f610b674457a7033c5596bc2ac83ad233c3cdbed25
+    name: postgres
+    type: application
+    urls:
+    - https://github.com/Boomer9955/helmcharts/releases/download/postgres-1.0.0/postgres-1.0.0.tgz
+    version: 1.0.0
   prdjango:
   - apiVersion: v2
     appVersion: 2.2.1
@@ -42,6 +53,16 @@ entries:
     - https://github.com/Boomer9955/helmcharts/releases/download/prdjango-1.1.0/prdjango-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2021-10-01T13:44:53.677416772+03:00"
+    description: A Helm chart for Kubernetes
+    digest: bbe70184b8acfb7e397af435ad4717ecf7609cb873478dff6ef15244ef3023fd
+    name: prdjango
+    type: application
+    urls:
+    - https://github.com/Boomer9955/helmcharts/releases/download/prdjango-1.0.0/prdjango-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v2
     appVersion: 1.16.0
     created: "2021-09-08T12:15:22.87869046+03:00"
     description: A Helm chart for Kubernetes
@@ -51,14 +72,4 @@ entries:
     urls:
     - https://github.com/Boomer9955/helmcharts/releases/download/prdjango-0.1.0/prdjango-0.1.0.tgz
     version: 0.1.0
-  - apiVersion: v2
-    appVersion: 0.0.1
-    created: "2021-10-01T13:37:40.466898606+03:00"
-    description: A Helm chart for Kubernetes
-    digest: 4642d117e7f2cf4797eb44d1930458abf18f44779ea8ecdcd34f89766aba7f4b
-    name: prdjango
-    type: application
-    urls:
-    - https://github.com/Boomer9955/helmcharts/releases/download/prdjango-0.0.1/prdjango-0.0.1.tgz
-    version: 0.0.1
-generated: "2021-10-01T13:37:40.466930987+03:00"
+generated: "2021-10-01T13:44:53.677446047+03:00"
