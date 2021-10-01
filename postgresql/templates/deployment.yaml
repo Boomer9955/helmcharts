@@ -47,7 +47,7 @@ spec:
                   key: password
 
             - name: POSTGRES_DB
-              value: kube_django
+              value: mydjango
           ports:
             - name: http
               containerPort: 5432
@@ -55,14 +55,6 @@ spec:
           volumeMounts:
             - name: postgres-volume-mount
               mountPath: /var/lib/postgresql/data
-          livenessProbe:
-            httpGet:
-              path: /
-              port: http
-          readinessProbe:
-            httpGet:
-              path: /
-              port: http
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
       {{- with .Values.nodeSelector }}

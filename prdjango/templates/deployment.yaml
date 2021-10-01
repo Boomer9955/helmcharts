@@ -51,15 +51,7 @@ spec:
                   key: password
 
             - name: POSTGRES_HOST
-              value: postgres-service
-          livenessProbe:
-            httpGet:
-              path: /
-              port: http
-          readinessProbe:
-            httpGet:
-              path: /
-              port: http
+              value: postgres
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
       {{- with .Values.nodeSelector }}
