@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   mydjango:
   - apiVersion: v2
+    appVersion: 2.1.5
+    created: "2021-10-04T11:45:09.82173536+03:00"
+    description: A Helm chart for Kubernetes
+    digest: 734473cbce4be37f8fdfb5955ccdae87a71c5164d280dc811cb22ab28d9dcf54
+    name: mydjango
+    type: application
+    urls:
+    - https://github.com/Boomer9955/helmcharts/releases/download/mydjango-2.1.5/mydjango-2.1.5.tgz
+    version: 2.1.5
+  - apiVersion: v2
     appVersion: 2.1.3
     created: "2021-10-04T11:35:41.4679772+03:00"
     description: A Helm chart for Kubernetes
@@ -22,6 +32,16 @@ entries:
     - https://github.com/Boomer9955/helmcharts/releases/download/mydjango-2.1.3/mydjango-2.1.3.tgz
     version: 2.1.3
   postgres:
+  - apiVersion: v2
+    appVersion: 1.1.5
+    created: "2021-10-04T11:45:10.016403855+03:00"
+    description: A Helm chart for Kubernetes
+    digest: 9e6df8b3bac84893d6a92f3813596e83e08449248239a7b6803b47e91bccb4e2
+    name: postgres
+    type: application
+    urls:
+    - https://github.com/Boomer9955/helmcharts/releases/download/postgres-1.1.5/postgres-1.1.5.tgz
+    version: 1.1.5
   - apiVersion: v2
     appVersion: 1.1.2
     created: "2021-10-04T11:35:41.65203232+03:00"
@@ -133,4 +153,4 @@ entries:
     urls:
     - https://github.com/Boomer9955/helmcharts/releases/download/prdjango-0.1.0/prdjango-0.1.0.tgz
     version: 0.1.0
-generated: "2021-10-04T11:35:41.652071444+03:00"
+generated: "2021-10-04T11:45:10.016447987+03:00"
