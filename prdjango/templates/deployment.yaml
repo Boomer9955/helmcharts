@@ -37,21 +37,6 @@ spec:
             - name: http
               containerPort: 8010
               protocol: TCP
-          env:
-            - name: POSTGRES_USER
-              valueFrom:
-                secretKeyRef:
-                  name: postgres-credentials
-                  key: user
-
-            - name: POSTGRES_PASSWORD
-              valueFrom:
-                secretKeyRef:
-                  name: postgres-credentials
-                  key: password
-
-            - name: POSTGRES_HOST
-              value: postgres
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
       {{- with .Values.nodeSelector }}
