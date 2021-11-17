@@ -1,17 +1,16 @@
 apiVersion: v1
 entries:
-  djangosql:
+  mydjango:
   - apiVersion: v2
-    appVersion: 1.0.1
-    created: "2021-11-17T11:34:28.082116575+03:00"
+    appVersion: 2.1.7
+    created: "2021-11-17T15:06:46.518378631+03:00"
     description: Helm chart
-    digest: ba9d94a039347499f70a7584803d93ed14d72e231fc7c00dd5b3018cb030063a
-    name: djangosql
+    digest: a1d060300f6f556e76d4e8db70894c19696bfa4de4abe13e218510646f9fedd3
+    name: mydjango
     type: application
     urls:
-    - https://github.com/Boomer9955/helmcharts/releases/download/djangosql-1.0.1/djangosql-1.0.1.tgz
-    version: 1.0.1
-  mydjango:
+    - https://github.com/Boomer9955/helmcharts/releases/download/mydjango-2.1.7/mydjango-2.1.7.tgz
+    version: 2.1.7
   - apiVersion: v2
     appVersion: 2.1.6
     created: "2021-10-07T14:25:11.769626126+03:00"
@@ -184,4 +183,4 @@ entries:
     urls:
     - https://github.com/Boomer9955/helmcharts/releases/download/prdjango-0.1.0/prdjango-0.1.0.tgz
     version: 0.1.0
-generated: "2021-11-17T11:34:28.082160377+03:00"
+generated: "2021-11-17T15:06:46.518428154+03:00"
