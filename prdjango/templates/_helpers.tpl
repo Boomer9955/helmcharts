@@ -65,7 +65,7 @@ Create the name of the service account to use
 - name: {{ $key }}
   valueFrom:
     secretKeyRef:
-      name: app-env-secret
+      name: djangosql-cred
       key: {{ $key }}
 {{- end}}
 {{- end }}
