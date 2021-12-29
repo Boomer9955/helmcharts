@@ -35,4 +35,4 @@ autoscaling:
 nodeSelector: {}
 tolerations: []
 affinity: {}
-secret_key: 1
+secret_key: my-secret-key-boomer12
