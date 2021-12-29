@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   mydjango:
   - apiVersion: v2
+    appVersion: "127.1"
+    created: "2021-12-29T11:22:20.056602291+03:00"
+    description: A Helm chart for Kubernetes
+    digest: f68859179611d4920733e141b7a74942b6fc2b38995b090b7d364d7f5eacffb1
+    name: mydjango
+    type: application
+    urls:
+    - https://github.com/Boomer9955/helmcharts/releases/download/mydjango-127.1/mydjango-127.1.tgz
+    version: "127.1"
+  - apiVersion: v2
     appVersion: "127"
     created: "2021-12-29T08:13:38.651641218Z"
     description: A Helm chart for Kubernetes
@@ -613,4 +623,4 @@ entries:
     urls:
     - https://github.com/Boomer9955/helmcharts/releases/download/prdjango-0.1.0/prdjango-0.1.0.tgz
     version: 0.1.0
-generated: "2021-12-29T08:13:38.651974321Z"
+generated: "2021-12-29T11:22:20.056894419+03:00"
