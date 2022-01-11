@@ -2,5 +2,5 @@ apiVersion: v2
 name: mydjango
 description: A Helm chart for Kubernetes
 type: application
-version: '162'
-appVersion: '162'
+version: '165'
+appVersion: '165'
